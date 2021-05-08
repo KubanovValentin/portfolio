@@ -1,0 +1,16 @@
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 30px;
+    &__link {
+        color: black;
+        font-weight: bold;
+        font-size: large;
+        &:hover {
+            color: rgba(251, 6, 6, 0.664);
+            text-decoration: none;
+        }
+    }
+}

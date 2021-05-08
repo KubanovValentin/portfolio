@@ -1,0 +1,16 @@
+.pageup {
+    // display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    width: 55px;
+    height: 45px;
+    // mask-image: url('../../icons/pageup/arrow_up.svg');
+    img {
+        width: 100%;
+        border-radius: 30%;
+    }
+    a {
+        background:url('../../img/works/upp.png') no-repeat top left red;
+    }
+}

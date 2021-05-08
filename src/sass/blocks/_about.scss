@@ -1,0 +1,45 @@
+.about {
+    position: relative;
+    display: flex;
+    text-align: center;
+    &__img {
+        position:absolute;
+        opacity: 0.1;
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+    }
+    &__subtitle {
+        text-align: justify;
+        margin-top: 80px;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 45px;
+    }
+    &__advanced  {
+        position: relative;
+        margin-top: 20px;
+        font-size: 20px;
+        a {display: block;
+            text-align: center;
+            &:hover {
+                color: red;
+                text-decoration: none;
+                font-size: 28px;
+                transition: all 0.8s;
+            }
+        }
+            
+        
+    }
+}

@@ -1,0 +1,26 @@
+.lang_buttons .button {
+    display: inline-block;
+    color: red;
+    // border: 1px solid gray;
+}
+.en_lang {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.lang_buttons .en_lang {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.translation__btns {
+    transform: rotate(-90deg) translate(-36%, -260%);
+    // .lang_buttons {
+    //   text-align: right;
+    // }
+    position: fixed;
+    top: 122px;
+    /* left: 131px; */
+    right: -42px;
+
+}
