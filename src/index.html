@@ -46,6 +46,11 @@
     <meta name="msapplication-TileImage" content="icons/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -236,91 +241,69 @@
                 </a>
             </div>
             <div class="portfolio__wrapper">
-                <a href="glopt/index.html" class="portfolio__item">
+                <a href="1.glopt/index.html" class="portfolio__item">
                     <img src="img/portfolio/glopt.jpg" alt="glopt">
                 </a>
-                <a href="portfolio/src/index.html" class="portfolio__item">
+                <a href="2.portfolio/src/index.html" class="portfolio__item">
                     <img src="img/portfolio/portfolio.jpg" alt="glopt">
                 </a>
-                <a href="pulse/src/index.html" class="portfolio__item">
+                <a href="3.pulse/src/index.html" class="portfolio__item">
                     <img src="img/portfolio/pulse.jpg" alt="pulse">
                 </a>
-                <a href="uber/src/index.html" class="portfolio__item">
+                <a href="4.uber/src/index.html" class="portfolio__item">
                     <img src="img/portfolio/uber.jpg" alt="uber">
                 </a>
-                <a href="verstach/Site/index.html" class="portfolio__item vertical">
+                <a href="5.verstach/Site/index.html" class="portfolio__item vertical">
                     <img src="img/portfolio/verstach.jpg" alt="verstach">
                 </a>
-                <a href="word/src/index.html" class="portfolio__item">
+                <a href="6.word/src/index.html" class="portfolio__item">
                     <img src="img/portfolio/word.jpg" alt="word">
                 </a>
+            </div>
         </div>
     </section>
 
 
     <section id="contacts" class="contacts">
         <div class="container">
+            <div class="contacts__img">
+                <img src="img/contacts.jpeg" alt="">
+            </div>
             <div class="contacts__descr">
                 <div class="contacts__title">
                     <h2 class="en_lang">Contacts</h2>
                     <h2 class="rus_lang">Контакты</h2>
                 </div>
-                <div class="contacts__img">
-                    <img src="img/contacts.jpeg" alt="">
-                </div>
                 <div class="contacts__subtitle">
-                    <p class="en_lang">So I got acquainted with my portfolio, and it certainly shows that I have just started my professional career. But you know what? But here's what — I'm not afraid of not knowing anything, or difficult tasks, as I try to develop a golden skill - <span>GOOGLE</span> to help and then most likely you need to ask the question correctly and then you will get what you Google...... I am ready to go on your terms, in order to implement good projects working in a team....</p>
-                    <p class="rus_lang">Вот и прошло ознакомление с моим портфолио, по нему конечно же видно, что я только начал свой профессиональный путь. Но знаете что? А вот что — меня не пугают не знание чего-либо, или трудные задачи так как я стараюсь развивать золотой навык —     <span>GOOGLE</span> в помощь и тут скорее всего надо правильно задать вопрос и тогда получишь то, что гуглишь...... я готов пойти на ваших условиях, для того чтобы реализовывать хорошие проекты работая в команде.... </p>
+                    <p class="en_lang">So I got acquainted with my portfolio, and it certainly shows that I have just started my professional career. But you know what? I am not afraid of difficult tasks or not knowing anything because I try to develop the golden skill - <span>GOOGLE</span> to help, but even using it you need to ask the question correctly and then you will get what you are looking for...... I am ready to go to you on your terms, in order to implement good projects working in a team....</p>
+                    <p class="rus_lang">Вот и прошло ознакомление с моим портфолио, по нему конечно же видно, что я только начал свой профессиональный путь. Но знаете что? Меня не пугают трудные задачи либо не знание чего-либо так как я стараюсь развивать золотой навык — <span>GOOGLE</span> в помощь, но даже применяя его надо правильно задать вопрос и тогда получишь то, что ищешь...... я готов пойти к вам на ваших условиях, для того чтобы реализовывать хорошие проекты работая в команде.... </p>
                 </div>
 
-                <form id="contacts-form" class="feed-form rus_lang" action="#">
+                <form class="form rus_lang" action="#">
                     <input name="name" required placeholder="Ваше имя" type="text">
                     <input name="email" required placeholder="Ваш E-mail" type="email">
-                    
-                    <button class="button button_submit">связаться со мной</button>
+                    <textarea name="text" required placeholder="Сообщение"></textarea>
+                    <button class="button">связаться со мной</button>
                 </form>
-                <form id="contacts-form" class="feed-form en_lang" action="#">
+                <form class="form en_lang" action="#">
                     <input name="name" required placeholder="Your name" type="text">
                     <input name="email" required placeholder="Your E-mail address" type="email">
-                    
-                    <button class="button button_submit">contact me</button>
+                    <textarea name="text" required placeholder="Message"></textarea>
+                    <button class="button">contact me</button>
                 </form>  
-                <form action="#" class="contacts__form">
-                    <div class="contacts__input">
-                        <input required name="name" id="name" type="text">
-                        <label for="name">Ваше имя</label>
-                    </div>
-                    <div class="contacts__input">
-                        <input required name="email" id="email" type="email">
-                        <label for="email">Ваша почта</label>
-                    </div>
-                    <div class="contacts__textarea">
-                        <textarea name="text" id="text"></textarea>
-                        <label for="text">Ваше сообщение</label>
-                    </div>
-                    <div class="contacts__triggers">
-                        <button class="contacts__btn btn">Отправить сообщение</button>
-                        <div class="contacts__policy">
-                            <input required type="checkbox">
-                            <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span> 
-                        </div>
-                    </div>
-                    
-
-                </form>      
             </div> 
         </div>
         <hr>
         <div class="contacts__footer">
             <div class="contacts__social">
-                <a class="portfolio__img" href="">
-                    <img src="img/_github.jpg" alt="github">
+                <a class="contacts__icon" href="">
+                    <img src="icons/social/facebook.svg" alt="github">
                 </a>
-                <a class="portfolio__img" href="https://github.com/KubanovValentin">
-                    <img src="img/_github.jpg" alt="github">
+                <a class="contacts__icon" href="https://github.com/KubanovValentin">
+                    <img src="icons/social/instagram.svg" alt="github">
                 </a>
-                <a class="portfolio__img" href="https://github.com/KubanovValentin">
-                    <img src="img/_github.jpg" alt="github">
+                <a class="contacts__icon" href="https://github.com/KubanovValentin">
+                    <img src="icons/social/telegram.svg" alt="github">
                 </a>
             </div>
         </div>

@@ -30,7 +30,8 @@
         position: relative;
         margin-top: 20px;
         font-size: 20px;
-        a {display: block;
+        a {
+            display: block;
             text-align: center;
             &:hover {
                 color: red;

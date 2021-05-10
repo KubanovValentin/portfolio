@@ -2,16 +2,18 @@
 @import './blocks/promo';
 @import './blocks/about';
 @import './blocks/menu';
-@import './blocks/btn';
+@import './blocks//interpreter';
 @import './blocks/modal';
 @import './blocks/carusel';
 @import './blocks/portfolio';
+@import './blocks/contacts';
+@import './blocks/form';
 @import './blocks/hamburger';
 @import './blocks/pageup';
 @import './blocks/media';
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }

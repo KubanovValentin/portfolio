@@ -5,12 +5,13 @@
     right: 25px;
     width: 55px;
     height: 45px;
-    // mask-image: url('../../icons/pageup/arrow_up.svg');
+    z-index: 10;
+    // mask-image: url('../fonts/../fonts/../fonts/../fonts/icons/pageup/arrow_up.svg');
     img {
         width: 100%;
         border-radius: 30%;
     }
     a {
-        background:url('../../img/works/upp.png') no-repeat top left red;
+        background:url('../fonts/../fonts/../fonts/../fonts/img/works/upp.png') no-repeat top left red;
     }
 }
