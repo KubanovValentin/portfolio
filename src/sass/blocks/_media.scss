@@ -9,6 +9,11 @@
     // .hamburger {
     //     display: none;
     // }
+    .contacts {
+        &__descr {
+            padding: 0 60px;
+        }
+    }
 }
 
 
@@ -32,6 +37,7 @@
             padding: 0 45px;
         }
     }
+    
 }
 
 
@@ -47,15 +53,24 @@
             font-size: 20px;
         }
     }
+    .contacts {
+        &__descr {
+            padding: 0 50px;
+        }
+    }
+    .form {
+        input, textarea {
+            width: 420px;
+        }
+    }
 }
 
 
 
 @media (max-width: 576px) {
     hr {
-        display: none;
+      display: none;
     }
-
     .pageup {
     bottom: 5px;
     right: 5px;
@@ -167,6 +182,20 @@
         }
         &__item {
             margin-top: 40px;
+        }
+    }
+    .contacts {
+        .container {
+            width: 300px;
+            padding: 0;
+        }
+        &__descr {
+            padding: 0 10px;
+        }
+    }
+    .form {
+        input, textarea {
+            width: 250px;
         }
     }
 }

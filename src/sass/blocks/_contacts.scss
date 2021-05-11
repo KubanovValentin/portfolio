@@ -30,9 +30,9 @@
     &__subtitle {
         text-align: justify;
         margin-top: 80px;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 45px;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 50px;
         margin-bottom: 100px;
         span {
             color:gold;
@@ -44,7 +44,7 @@
         height: 5px;
         background-color: rgb(51, 255, 0);
         border: none;
-        box-shadow: 0 10px 20px 20px #63ceee;
+        box-shadow: 0 5px 10px 10px #63ceee;
         margin: 50px 0;
     }
     &__social {
@@ -55,6 +55,12 @@
         width: 50px;
         margin: 20px;
         img {
+            width: 100%;
+        }
+    }
+    &__icon:first-child {
+        img {
+            transform: rotate(90deg);
             width: 100%;
         }
     }

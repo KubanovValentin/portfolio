@@ -22,9 +22,9 @@
     &__subtitle {
         text-align: justify;
         margin-top: 80px;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 45px;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 55px;
     }
     &__advanced  {
         position: relative;
@@ -33,6 +33,8 @@
         a {
             display: block;
             text-align: center;
+            font-family: 'Roboto';
+            font-weight: bold;
             &:hover {
                 color: red;
                 text-decoration: none;
