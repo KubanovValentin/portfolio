@@ -185,17 +185,25 @@
         }
     }
     .contacts {
+        padding: 10px 0;
         .container {
             width: 300px;
             padding: 0;
         }
         &__descr {
-            padding: 0 10px;
+            padding: 0 27px;
+        }
+        &__title {
+            font-size: 30px;
+        }
+        &__subtitle {
+            margin-top: 30px;
+            font-size: 30px;
         }
     }
     .form {
         input, textarea {
-            width: 250px;
+            width: 220px;
         }
     }
 }
