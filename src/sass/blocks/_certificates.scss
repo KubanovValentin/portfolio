@@ -1,0 +1,20 @@
+.certificates {
+    padding-top: 40px;
+    &__geekbrains {
+        img {
+            width: 250px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
+            width: 320px;
+            &:hover {
+                transform: scale(1.8);
+                transition: all 0.9s ease;
+            }
+        }
+    }
+}
