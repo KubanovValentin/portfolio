@@ -6,12 +6,21 @@
     .container {
         max-width: 960px;
     }
-    // .hamburger {
-    //     display: none;
-    // }
     .contacts {
         &__descr {
             padding: 0 60px;
+        }
+    }
+    .personal {
+        &__wrapper {
+            grid-template: auto / 1fr 180px 400px;
+            .upper-level {
+                flex-direction: column;
+                text-align: end;
+            }
+        }
+        &__about {
+            padding: 0;
         }
     }
 }
@@ -37,7 +46,19 @@
             padding: 0 45px;
         }
     }
-    
+    .personal {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        &__skill-wrapper {
+            margin: 0;
+        }
+        &__work-education {
+            text-align: center;
+        }
+    }
 }
 
 
@@ -63,13 +84,18 @@
             width: 420px;
         }
     }
+    .personal {
+        &__wrapper {
+            padding: 0 50px;
+        }
+    }
 }
 
 
 
 @media (max-width: 576px) {
     hr {
-      display: none;
+    display: none;
     }
     .pageup {
     bottom: 5px;
@@ -205,5 +231,51 @@
         input, textarea {
             width: 220px;
         }
+    }
+    .personal {
+        padding: 20px 5px;
+        .container {
+            width: 300px;
+        }
+        &__about {
+            text-align: center;
+            font-size: 20px;
+            padding: 5px;
+        }
+        &__fhoto {
+            width: 280px;
+            margin: 0 auto;
+        }
+        &__biography {
+            font-size: 20px;
+        }
+        &__wrapper {
+            padding: 0;
+        }
+        &__skill-wrapper {
+            grid-template: auto / 1fr 1fr;
+                ul {
+                    font-size: 15px;
+                }
+                li {
+                    margin: 15px 0;
+                }
+                .star {
+                    font-size: 15px;
+                    margin: 15px;
+                }
+        }
+        &__philosophy {
+            text-align: center;
+        }
+        &__habits {
+            align-items:center;
+            justify-content: space-around;
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+        
     }
 }

@@ -1,0 +1,22 @@
+.work {
+    padding-top: 50px;
+    font-family: 'Merriweather', serif;
+    &__title {
+        text-align: center;
+        img {
+            width: 100px;
+        }
+    }
+    &__item {
+
+        display: grid;
+        grid-template: 1fr / 100px 3fr 2fr;
+        gap: 10px;
+        p {
+            font-family: 'Merriweather', serif;
+        }
+    }
+    hr {
+        margin: 20px 0 20px 0;
+    }
+}

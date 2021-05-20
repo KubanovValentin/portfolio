@@ -1,4 +1,5 @@
 .about {
+    padding-bottom: 30px;
     position: relative;
     display: flex;
     text-align: center;
@@ -26,23 +27,23 @@
         font-size: 35px;
         line-height: 55px;
     }
-    &__advanced  {
-        position: relative;
-        margin-top: 20px;
-        font-size: 20px;
-        a {
-            display: block;
-            text-align: center;
-            font-family: 'Roboto';
-            font-weight: bold;
-            &:hover {
-                color: red;
-                text-decoration: none;
-                font-size: 28px;
-                transition: all 0.8s;
-            }
-        }
+    // &__advanced  {
+    //     position: relative;
+    //     margin-top: 20px;
+    //     font-size: 20px;
+    //     a {
+    //         display: block;
+    //         text-align: center;
+    //         font-family: 'Roboto';
+    //         font-weight: bold;
+    //         &:hover {
+    //             color: red;
+    //             text-decoration: none;
+    //             font-size: 28px;
+    //             transition: all 0.8s;
+    //         }
+    //     }
             
         
-    }
+    // }
 }

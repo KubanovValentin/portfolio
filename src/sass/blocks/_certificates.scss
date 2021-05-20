@@ -1,9 +1,38 @@
 .certificates {
     padding-top: 40px;
-    &__geekbrains {
+    &__line {
+        margin-top: 30px;
+    }
+    &__source {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        &_int {
+            padding: 15px;
+            align-items:flex-start;
+        }
+        &_sol {
+            padding-top: 30px;
+            align-items:flex-start;
+            a {
+                display: block;
+                margin-bottom: 30px;
+                color: red;
+            }
+        }
+    }
+    &__intuit, &__geekbrains {
         img {
             width: 250px;
         }
+    }
+    &__sololearn {
+        img {
+            width: 250px;
+        }
+    }
+    &__little {
+        font-size: 13px;
     }
     &__wrapper {
         display: flex;
@@ -15,6 +44,22 @@
                 transform: scale(1.8);
                 transition: all 0.9s ease;
             }
+        }
+        &_int {
+            text-align: center;
+            a {
+                color: rgb(247, 6, 6);
+            }
+            img {
+                margin-top: 20px;
+                &:hover {
+                    transform: none;
+                    transition: none;
+                }
+            }
+        }
+        &_sol {
+            display: flex;
         }
     }
 }
