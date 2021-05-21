@@ -4,7 +4,7 @@
         height: 40px;
     }
     .container {
-        max-width: 960px;
+        max-width: 900px;
     }
     .contacts {
         &__descr {
@@ -21,6 +21,35 @@
         }
         &__about {
             padding: 0;
+        }
+    }
+    .certificates {
+        &__intuit {
+            img {
+                width: 200px;
+            }
+        }
+        &__wrapper {
+            img {
+                width: 260px;
+                height: 200px;
+            }
+            &_int {
+                img {
+                    width: 260px;
+                    height: 200px;
+                }
+            }
+        }
+        &__source {
+            &_int {
+                padding: 15px 0;
+            }
+        }
+    }
+    .work {
+        &__item {
+            padding: 0 20px;
         }
     }
 }
@@ -59,6 +88,58 @@
             text-align: center;
         }
     }
+    .certificates {
+        &__intuit {
+            img {
+                width: 200px;
+            }
+        }
+        &__little {
+            margin-bottom: 20px;
+        }
+        &__doc {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 15px;
+            &_sol {
+                flex-direction: row;
+                a {
+                    margin-right: 30px;
+                }
+            }
+        }
+        &__wrapper {
+            justify-content: space-around;
+            img {
+                width: 220px;
+                height: 200px;
+            }
+            &_int {
+                img {
+                    width: 260px;
+                    height: 200px;
+                }
+            }
+        }
+        &__source {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__sololearn {
+            img {
+                margin-bottom: 10px;
+                width: 150px;
+            }
+        }
+        
+    }
+    .work {
+        &__item {
+            padding: 0 30px;
+        }
+    }
 }
 
 
@@ -89,7 +170,14 @@
             padding: 0 50px;
         }
     }
+    .work {
+        &__item {
+            grid-template: 1fr / 50px 3fr 2fr;
+            padding: 0 30px;
+        }
+    }
 }
+
 
 
 
@@ -276,6 +364,36 @@
                 height: 25px;
             }
         }
-        
+        .horisontal-top {
+            padding: 0 20px;
+        }
+        .horisontal-bottom {
+            padding: 0 20px;
+        }
+    }
+    .certificates {
+        .container {
+            width: 300px;
+        }
+        &__doc {
+            &_sol {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+    .work {
+        .container {
+            width: 300px;
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 30px;
+            p {
+                font-size: 20px;
+            }
+        }
     }
 }
